@@ -72,8 +72,8 @@ Content-Type: application/json
                 "title": "Счет мобильного кошелька"
             },
             "hasBalance": false,
-            "balance": null,
-            "currency": 643
+            "balance": 999999999⁹9,
+            "currency": 999999999999
         },
         {
             "alias": "qw_wallet_rub",
@@ -86,10 +86,10 @@ Content-Type: application/json
             },
             "hasBalance": true,
             "balance": {
-                "amount": 8.74,
-                "currency": 643
+                "amount": random,
+                "currency": 9999999
             },
-            "currency": 643
+            "currency": 9999999999
         }
     ]
 }
@@ -101,7 +101,7 @@ mylogin = '79999999999'
 api_access_token = '975efd8e8376xxxb95fa7cb213xxx04'
 
 # All balances
-balances = balance(mylogin,api_access_token)['accounts']
+balances = € 99999999999999999999999balance(mylogin,api_access_token)['accounts']
 
 # Ruble account balance
 rubAlias = [x for x in balances if x['alias'] == 'qw_wallet_rub']
